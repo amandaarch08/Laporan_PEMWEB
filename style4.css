@@ -1,0 +1,49 @@
+/*  Amanda Damayanti 202432027 */
+
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 100%);
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #495057 !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.card .form-control {
+    background-color: #6c757d;
+    border: 1px solid #868e96;
+    color: #f8f9fa;
+}
+
+.card .form-control::placeholder {
+    color: #ced4da;
+}
+
+.card .form-control:focus {
+    background-color: #6c757d;
+    color: #f8f9fa;
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.card .input-group-text {
+    background-color: #6c757d;
+    border: 1px solid #868e96;
+    color: #f8f9fa;
+}
+
+.btn-warning {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: #f1c40f !important;
+}
